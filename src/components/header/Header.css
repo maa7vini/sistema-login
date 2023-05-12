@@ -1,0 +1,98 @@
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLeft {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #161221;
+}
+
+.headerLeft h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #E1E1E6;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.322);
+}
+
+.headerInputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.headerInputs label {
+    font-weight: bold;
+    color: #E1E1E6;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.322);
+}
+
+.headerInputs input {
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: #282433;
+    border: none;
+    border-radius: 3px;
+}
+
+.divButtons {
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divButtons a {
+    text-decoration: none;
+    color: #714fbb;
+}
+
+.divButtons a:hover {
+    color: #805fc7;
+}
+
+.divButtons button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #714fbb;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+.divButtons button:hover {
+    background-color: #6244a3;
+}
+
+.headerLeft p {
+    margin-top: 10px;
+    color: #C4C4CC;
+}
+
+.headerLeft a {
+    color: #C4C4CC;
+    text-decoration: none;
+}
+
+.headerLeft a:hover {
+    text-decoration: underline;
+}
+
+.headerRight {
+    height: 100vh;
+    width: 40%;
+    background-image: linear-gradient(to bottom, #2d2d61, #6c2ca8);
+}
